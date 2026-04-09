@@ -4,6 +4,8 @@
 
 一期目标只做一件事：先把 mac 菜单栏应用的开发、打包、分发链路跑通，同时保留未来扩展到 Windows / Linux / Terminal CLI 的基础。
 
+`Switchyard` 不是 `Loongphy/codex-auth` 或 OpenAI 的官方项目。
+
 ## 技术栈
 
 - 桌面壳：Tauri 2
@@ -134,3 +136,15 @@ pnpm build:mac
 3. 补 Windows 托盘窗口
 4. 补 Linux 托盘窗口
 5. 增加自动更新与正式签名发布流水线
+
+## 许可证与来源说明
+
+本项目当前采用 MIT 协议发布，见 `LICENSE`。
+
+`Switchyard` 是独立命名、独立实现的桌面项目，但一期功能范围、兼容的数据文件结构，以及部分行为设计参考了 `Loongphy/codex-auth`。我已补充第三方声明，保留其 MIT 许可证与版权信息，见 `THIRD_PARTY_NOTICES.md`。
+
+为避免品牌和来源混淆：
+
+- 本项目不使用 `codex-auth` 作为产品名
+- README 中明确声明非上游官方项目
+- `Codex`、`OpenAI`、`ChatGPT` 等名称仅用于兼容性说明，其商标权归各自权利人所有

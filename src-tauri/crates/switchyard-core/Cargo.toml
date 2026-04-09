@@ -3,6 +3,7 @@ name = "switchyard-core"
 version = "0.1.0"
 edition = "2021"
 description = "Switchyard shared account registry core"
+license = "MIT"
 
 [dependencies]
 base64 = "0.22.1"
